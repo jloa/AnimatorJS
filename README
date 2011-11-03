@@ -1,0 +1,16 @@
+=== project ===
+[home]	Animator.js light css3-animation overlay; works with jquery
+[git]	https://github.com/jloa/AnimatorJS
+
+=== licence ===
+MIT http://www.opensource.org/licenses/mit-license.php
+
+=== note ===
+If u have any suggestions, plz send them to me @ jloa[at]chargedweb.com / subj:animator.js
+Much appreciated.
+
+[v.0.1a]
+	- added animate() method
+	- added pause() method
+	- added resume() method
+	- added isPaused() method
