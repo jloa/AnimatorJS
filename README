@@ -10,6 +10,8 @@ If u have any suggestions, plz send them to me @ jloa[at]chargedweb.com / subj:a
 Much appreciated.
 
 [v.0.1a]
+	- added onFinish callback param to the animate() method
+[v.0.1a]
 	- added animate() method
 	- added pause() method
 	- added resume() method

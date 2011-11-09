@@ -3,7 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>animator.js</title>
-</head>
 <style>
 * {
 	font-family:Verdana;
@@ -105,9 +104,8 @@ span[rel]:active {
     content: "";
     clear: both;
 }
-
 </style>
-<script language="javascript" type="text/javascript" src="lib/jquery-1.6.4.min.js"></script>
+<script language="javascript" type="text/javascript" src="lib/jquery-1.7.min.js"></script>
 <script language="javascript" type="text/javascript" src="lib/animator.js"></script>
 <script language="javascript" type="text/javascript">
 $(document).ready(function()
@@ -125,7 +123,8 @@ $(document).ready(function()
 						    'left:100px; top:1000px; transform:rotate(145deg);',
 						    'left:900px; top:860px;',
 							'left:500px; top:300px;' ],
-							$('input[name=stop]').is(':checked'));																	
+							$('input[name=stop]').is(':checked'),
+							onAnimationFinish);																	
 	});
 	$('.togglePauseBtn').click(function()
 	{
@@ -137,7 +136,12 @@ $(document).ready(function()
 			$animator.resume(target);
 	});
 });
+function onAnimationFinish(element)
+{
+	alert('onAnimationFinish callback === from ===> '+element);
+}
 </script>
+</head>
 <body>
 <div class="panel">
 	<div class="group">
