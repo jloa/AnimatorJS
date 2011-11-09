@@ -9,7 +9,7 @@ MIT http://www.opensource.org/licenses/mit-license.php
 If u have any suggestions, plz send them to me @ jloa[at]chargedweb.com / subj:animator.js
 Much appreciated.
 
-[v.0.1a]
+[v.0.2a]
 	- added onFinish callback param to the animate() method
 [v.0.1a]
 	- added animate() method
